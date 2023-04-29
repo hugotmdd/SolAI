@@ -1,0 +1,22 @@
+comet:
+  project: "solAI"
+  workspace: "YOUR_COMET_WORKSPACE"
+  key: "YOUR_COMET_API_KEY"
+data:
+  train_csv: "/code/data/segmentation/train.csv"
+  val_csv: "/code/data/segmentation/validation.csv"
+model:
+  name: "unet_backbone_resnet101"
+experiment:
+  name_root: "02-02-2023"
+  name: "${experiment.name_root}-${model.name}-${experiment.batch_size}-${experiment.learning_rate}-${experiment.optimizer}"
+  load_segmodel: False
+  segmodel_path : "/code/segmentation/experiments/models/" 
+  batch_size: 8
+  learning_rate: 0.000001
+  weight_decay: 0.001
+  optimizer: "Adam"
+  metric: "Dice"
+  schedulers:
+    - "plateau"
+  checkpoint_dir: "/code/segmentation/experiments/models/"
