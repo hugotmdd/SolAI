@@ -2,7 +2,7 @@
 
 ## Booming Decentralized Solar Power in Africa’s Cities. Satellite Imagery and Deep Learning Provide Cutting-Edge Data on Electrification
 
-![alt text](https://github.com/hugotmdd/solAI/blob/main/gitimage/background_pic.png)
+![alt text](https://github.com/hugotmdd/SolAI/blob/main/gitimage/background_pic.png)
 
 This github repository provides a simplified version of the code used in the project titled "Booming Decentralized Solar Power in Africa’s Cities. Satellite Imagery and Deep Learning Provide Cutting-Edge Data on Electrification." You can find the original paper published by the French Institute of International Relations (IFRI) [here](https://www.ifri.org/en/publications/briefings-de-lifri/booming-decentralized-solar-power-africas-cities-satellite-imagery) (and in french [here](https://www.ifri.org/fr/publications/briefings-de-lifri/solaire-decentralise-lassaut-villes-africaines-une-analyse-originale)).
 
@@ -19,7 +19,7 @@ The code includes a classification and segmentation model. In this project, we h
 To get started, please clone the repository using the command : 
 
 ```
-git clone https://github.com/hugotmdd/solAI.git
+git clone https://github.com/hugotmdd/SolAI.git
 ```
 
 and navigate to the "solAI" directory using :
